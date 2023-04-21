@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+    font-family: monospace;
+}
+
+.container{
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.calculator {
+    margin-top: 100px;
+    margin-left: auto;
+	margin-right: auto;
+    width: 300px;
+    height: 500px;
+    border: 4px hotpink solid;
+    border-radius: 50px;
+    background-color: pink;
+}
+
+.display {
+    background-image: linear-gradient(to bottom right, whitesmoke, papayawhip);
+    font-weight: normal;
+    border: 5px hotpink solid;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    width: 280px;
+    height: 150px;
+    padding: 5px;
+}
+
+.upperdisplay {
+    width: 275px;
+    font-size: 25px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 5px;
+    color: rgb(100, 253, 250);
+}
+
+.lowerdisplay {
+    width: 275px;
+    height: 80px;
+    font-size: 30px;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.buttons {
+    padding-top: 10px;
+    background-color: pink;
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.row {
+    width: 300px;
+    height: 60px;
+    /* background-color: rgb(147, 223, 255); */
+    border-radius: 50px;
+}
+
+.column {
+    float: left;
+    height: 60px;
+    width: 75px;
+    position: relative;
+    /* background-color: rgb(239, 123, 208); */
+    border-radius: 50px;
+}
+
+.column-2 {
+    float: left;
+    height: 60px;
+    width: 150px;
+    position: relative;
+    /* background-color: rgb(231, 134, 205); */
+    border-radius: 50px;
+}
+
+.column > button {
+    background-color: papayawhip;
+    color: hotpink;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    height: 50px;
+    width: 65px;
+    border-radius: 50px;
+}
+
+.column-2 > button {
+    background-color: papayawhip;
+    color: hotpink;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    height: 50px;
+    width: 140px;
+    border-radius: 50px;
+}
+
+.operation-column > button {
+    background-color: rgb(251, 226, 186);
+}
+
+h1 {
+    clear: both;
+    font-size: 40px;
+    margin-left: auto;
+	margin-right: auto;
+    font-weight: normal;
+}
